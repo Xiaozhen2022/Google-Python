@@ -11,12 +11,13 @@ class IPv4Extractor():
     
     def extract(self):
         result = re.findall(r"\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b", self.target)
-        print(result)
+        #result = re.findall(r"(([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-5][0-5])\.){3}([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-5][0-5]))", self.target)
+       
         if result:
-            return result[0]
+            return 'IP {} is valid'.format(result[0])
         else:
-            return '""'
+            return 'IP is invalid'
 
 if __name__ == '__main__':
-  ipv4 = IPv4Extractor("1.1.1.0 is 11.1.2.256 invalid IPv4 address")
-  print("Result: " + ipv4.extract())
+  ipv4 = IPv4Extractor("250.198.3.266 are invalid IPv4 address")
+  print(ipv4.extract())
