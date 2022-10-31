@@ -18,7 +18,7 @@
 ##Object_Oriented_Programming_V7.ipynb: 在本练习中，我们将创建几个类来模拟一个从外部接收连接的服务器，以及一个负载平衡器，以确保有足够的服务器来服务这些连接。
 为了表示负责连接的服务器，我们将使用Server类。每个连接都用一个id表示，例如，它可以是连接到服务器的计算机的IP地址。对于我们的模拟，每个连接在服务器中创建随机量的负载，在1到10之间。
 ##machines_pool_event:Monitor which computer domains and users are online in the company
-
+AAAAA
 
 
 
