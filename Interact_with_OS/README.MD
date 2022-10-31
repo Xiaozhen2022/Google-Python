@@ -6,3 +6,4 @@
 ##find_error.py:#!/usr/bin/env python3 Write a script to search the log file using regex to find for the exact error.Report the error into a separate file so you know what's wrong for further analysis.<br>
 ##convert_phone_number.py:# The convert_phone_number function checks for a U.S. phone number format: XXX-XXX-XXXX (3 digits followed by a dash, 3 more digits followed by a dash, and 4 digits), and converts it to a more formal format that looks like this: (XXX) XXX-XXXX. Fill in the regular expression to complete this function.<br>
 ##checking_time.py:# The check_time function checks for the time format of a 12-hour clock, as follows: the hour is between 1 and 12, with no leading zero, followed by a colon, then minutes between 00 and 59, then an optional space, and then AM or PM, in upper or lower case. Fill in the regular expression to do that. How many of the concepts that you just learned can you use here?<br>
+#add a text
