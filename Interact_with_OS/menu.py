@@ -18,7 +18,7 @@ df5 = pd.read_csv(r"D:\mystudy\QA\Git hub\Google-Python\Interact_with_OS\menu5.c
 while True:
   fun_num = input('请输入功能编号：')
   if fun_num == '1':  # 查看背菜本1
-     i=random.randint(0,75)
+     i=random.randint(0,75243)
      value = input("Please input the Id of {}: ".format(df1.iloc[i,1]+df1.iloc[i,2]))
      if value == df1.iloc[i,0]:
         print("You are right!")
